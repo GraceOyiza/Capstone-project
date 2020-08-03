@@ -57,9 +57,10 @@ a:hover {
   transform: scale(1.1);
 }
 
+
 .logo-eko {
     width: 60px;
-}
+  }
 
   .eko-conference-center {
    background-color: rgb(255, 255, 255);
@@ -68,3 +69,38 @@ a:hover {
    border: 2px solid white;
    box-shadow: 0 0 32px rgba(0, 0, 0, 0.25);
   }
+
+  .eko-conference-center-info input {
+   box-shadow: 0 0 32px rgba(0, 0, 0, 0.25);
+  }
+
+  .eko-conference-center-input {
+      width: 85%;
+      /* padding-left: 25%; */
+      margin: 10px 20px 1px 30px;
+  }
+
+  .eko-conference-center-info{
+    max-width: 100%;
+  }
+
+  .eko-center{
+      margin-left: 12px;
+      font-size: 13px;
+  }
+
+  .more-details {
+      background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .eko-conference-center-logo p {
+      font-size: 2em;
+      margin: 0;
+      padding-top: 39px;
+  }
+
+  .eko-conference-center-info-details {
+    font-size: 15px;
+    padding: 12px;
+   }
+
