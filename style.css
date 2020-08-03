@@ -188,7 +188,7 @@ a:hover {
     .footer-info-input {
       padding-left: 2px;
     } 
-  
+
     .subscribe p {
       font-size: 9px;
     }
@@ -196,4 +196,25 @@ a:hover {
     .flex-wrap-none {
       flex-wrap: nowrap !important;
     }
+  }
+
+  @media (min-width: 1024px) {
+    .steps p {
+      text-align: center;
+    }
+   
+   .navigation {
+   display: flex;
+   justify-content: space-between;
+   padding: 3px;
+   }
+  
+   .nav-info li {
+     display: flex;
+   }
+  
+   .logo {
+    width: 30px;
+    height: 30px;
+  }
   }
