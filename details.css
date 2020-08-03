@@ -10,21 +10,12 @@
   margin: 0 auto;
 }
 
-a {
-  color: white;
-}
-
-a:hover {
-  color: white !important;
-  text-decoration: none;
-}
-
 .bg-bright-red {
   background-color: #d35649;
 }
 
 .text-bright-red {
-  color: #d35649;
+  color: #d35266;
 }
 
 .logo {
@@ -32,7 +23,7 @@ a:hover {
 }
 
 .navigation-main p {
-  font-size: 2em;
+  font-size: 30px;
   margin: 0;
 }
 
@@ -45,16 +36,6 @@ a:hover {
 
 .nav-info li {
   padding-left: 30px;
-}
-
-.navigation-main {
-  transition: transform 0.5s, filter 1.5s ease-in-out;
-  filter: grayscale(100%);
-}
-
-.navigation-main:hover {
-  filter: grayscale(0);
-  transform: scale(1.1);
 }
 
 .logo-eko {
@@ -107,6 +88,15 @@ a:hover {
 .main-footer {
   background-color: black;
   margin-top: -20px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white !important;
+  text-decoration: none;
 }
 
 .footer-image {
@@ -172,25 +162,34 @@ a:hover {
   .steps p {
     text-align: center;
   }
- 
- .navigation {
- display: flex;
- justify-content: space-between;
- padding: 3px;
- }
 
- .nav-info li {
-  display: flex;
-}
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+  }
 
-.logo {
- width: 30px;
- height: 30px;
-}
+  .nav-info li {
+    display: flex;
+  }
 
-.eko-conference-center-info ul {
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
+
+  .eko-conference-center-info ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
 }
- 
+
+.navigation-main {
+  transition: transform 0.5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.navigation-main:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
 }
