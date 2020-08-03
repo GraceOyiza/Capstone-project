@@ -167,3 +167,17 @@ a:hover {
     flex-wrap: nowrap !important;
   }
 }
+
+@media (min-width: 1024px) {
+  .steps p {
+    text-align: center;
+  }
+ 
+ .navigation {
+ display: flex;
+ justify-content: space-between;
+ padding: 3px;
+ }
+
+ 
+}
