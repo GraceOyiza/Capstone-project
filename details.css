@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.wrapper {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white !important;
+  text-decoration: none;
+}
+
+.bg-bright-red {
+  background-color: #d35649;
+}
+
+.text-bright-red {
+  color: #d35649;
+}
+
+.logo {
+  width: 41px;
+}
+
+.navigation-main p {
+  font-size: 2em;
+  margin: 0;
+}
+
+.navigation {
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  max-width: 100%;
+}
+
+.nav-info li {
+  padding-left: 30px;
+}
+
+.navigation-main {
+  transition: transform 0.5s, filter 1.5s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.navigation-main:hover {
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
