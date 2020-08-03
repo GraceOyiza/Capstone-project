@@ -97,7 +97,7 @@ a:hover {
     background-color: rgba(255, 255, 255, 0.9) ;
     text-align: center;
     margin-left: 42%;
-    /* animation: fade-in 3s ease-in-out; */
+    animation: fade-in 3s ease-in-out;
   } 
 
   .section-school {

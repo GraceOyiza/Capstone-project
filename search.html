@@ -30,5 +30,65 @@
          </div>
   </nav>
     </div>
+
+    <main>
+        <div class="main-container">
+            <div class="main-container-details">
+            <p class="text-center font-weight-bold main-container-details-title">Filter by date, category, venue, location:</p>
+               <div class="main-container-info">
+                <ul class="d-flex flex-column flex-lg-row list-unstyled justify-content-center font-weight-bold pt-3 text-lg-left align-items-lg-end">
+                   <li class="d-flex d-lg-block mb-2">
+                   <p class="negative-padding mr-2">DATE*</p>
+                   <input type="text" name="date" >
+                   </li>
+
+                   <li class="d-flex d-lg-block mb-2">
+                   <p class="negative-padding mr-2">CATEGORY:</p>
+                   <select id="category" class="input-country pb-1">
+                     <option value="volvo"></option>
+                     <option value="volvo">Art</option>
+                     <option value="saab">Business</option>
+                     <option value="opel">Health</option>
+                     <option value="audi">News</option>
+                     <option value="audi">Recreation</option>
+                   </select>
+                   </li>
+
+                   <li class="d-flex d-lg-block mb-2">
+                     <p class="negative-padding mr-2">VENUE:</p>
+                     <select id="venue" class="input-level pb-1">
+                      <option value="volvo"></option>
+                      <option value="saab">Eko Convention Center</option>
+                      <option value="opel">JOGOR Center</option>
+                      <option value="audi">Landmark Center</option>
+                     </select>
+                   </li>
+
+                   <li class="d-flex d-lg-block mb-2">
+                     <p class="negative-padding mr-2">LOCATION:</p>
+                     <select id="location" class="input-location pb-1">
+                       <option value="location"></option>
+                       <option value="saab">Lagos</option>
+                       <option value="opel">Ibadan</option>
+                       <option value="audi">Port Harcourt</option>
+                     </select>
+                  </li>
+
+                   <li class="mb-2">
+                     <button class="px-3 border-0 pb-1 search-button text-white">Search</button>
+                  </li>
+
+                 <li class="mb-2" >   
+                    <div class="clear-filter">
+                    <i class="fa fa-pencil-square-o"></i>
+                    <button class="border-0 px-3 pb-1 clear-filter-button text-white" type="button">
+                    Clear filter</button>
+                    </div>
+                 </li>
+                </ul>
+             </div>
+             </div>
+          </div> 
+    </main>
 </body>
 </html>
