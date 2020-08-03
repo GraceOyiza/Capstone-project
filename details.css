@@ -179,5 +179,18 @@ a:hover {
  padding: 3px;
  }
 
+ .nav-info li {
+  display: flex;
+}
+
+.logo {
+ width: 30px;
+ height: 30px;
+}
+
+.eko-conference-center-info ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
  
 }
