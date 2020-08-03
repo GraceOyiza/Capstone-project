@@ -148,3 +148,23 @@ a:hover {
   background-color: black;
   padding-left: 2px;
 }
+
+@media (min-width: 768px) {
+    .eko-conference-center-info ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+  .footer-info-send-button {
+    padding: 0 4px; 
+  }
+  
+  .footer-info-input {
+    padding-left: 2px;
+  } 
+
+  .flex-wrap-none {
+    flex-wrap: nowrap !important;
+  }
+
+  }
