@@ -45,3 +45,37 @@ a:hover {
    .nav-info li{
     padding-left: 30px;
    }
+
+   
+ .main-container-details {
+    background-color: rgba(161, 155, 155, 0.2);
+    padding: 5% 0 8%;
+    margin-top: 5%;
+}
+
+.main-container-details-title {
+  font-size: 18px;
+  color: #eeeeee;
+}
+ 
+ .main-container-info ul li{
+   padding-left: 20px;
+ }
+
+ .negative-padding{
+   margin-bottom: 3px;
+ }
+
+ .search-button {
+   background-color: #457db4;
+   border-radius: 4px;
+ }
+ .clear-filter-button {
+   background-color:	#e5ab5a;
+   border-radius: 4px;
+ }
+
+ .main-container-info > ul {
+   width: 300px;
+   margin: 0 auto;
+ }
