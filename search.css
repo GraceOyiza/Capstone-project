@@ -79,3 +79,26 @@ a:hover {
    width: 300px;
    margin: 0 auto;
  }
+
+ .search-results-image{
+    background: linear-gradient(rgba(255, 56, 10, 0.5), rgba(255, 56, 10, 0.5)), url("image/search.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+    position: relative;
+    transition: 0.3s ease-in;
+  }
+
+   
+  /* .search-results-image:hover {
+    transform: scale(1.05);
+   
+  } */
+
+  .search-results-image p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
