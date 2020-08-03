@@ -52,7 +52,6 @@ a:hover {
   filter: grayscale(100%);
 }
 
-
 .navigation-main:hover {
   filter: grayscale(0);
   transform: scale(1.1);
@@ -82,7 +81,6 @@ a:hover {
 }
 
 .background-image-search {
-  padding: 10px;
   border-radius: 10px;
   background-color: rgba(202, 194, 191, 0.5);
   margin: 10px;

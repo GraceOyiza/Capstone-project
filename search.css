@@ -52,12 +52,10 @@ a:hover {
   filter: grayscale(100%);
 }
 
-
 .navigation-main:hover {
   filter: grayscale(0);
   transform: scale(1.1);
 }
-
 
 .main-container-details {
   background-color: rgba(161, 155, 155, 0.2);
@@ -103,7 +101,6 @@ a:hover {
   transition: 0.3s ease-in;
 }
 
-
 .search-results-image:hover {
   transform: scale(1.05);
 }
@@ -122,10 +119,6 @@ a:hover {
 
 .flex-sm-wrap {
   flex-wrap: wrap;
-}
-
-a {
-  color: white;
 }
 
 .footer-image {

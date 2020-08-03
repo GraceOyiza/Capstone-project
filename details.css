@@ -57,50 +57,94 @@ a:hover {
   transform: scale(1.1);
 }
 
-
 .logo-eko {
-    width: 60px;
-  }
+  width: 60px;
+}
 
-  .eko-conference-center {
-   background-color: rgb(255, 255, 255);
-   padding-top: 5%;
-   margin-top: 12%;
-   border: 2px solid white;
-   box-shadow: 0 0 32px rgba(0, 0, 0, 0.25);
-  }
+.eko-conference-center {
+  background-color: rgb(255, 255, 255);
+  padding-top: 5%;
+  margin-top: 12%;
+  border: 2px solid white;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.25);
+}
 
-  .eko-conference-center-info input {
-   box-shadow: 0 0 32px rgba(0, 0, 0, 0.25);
-  }
+.eko-conference-center-info input {
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.25);
+}
 
-  .eko-conference-center-input {
-      width: 85%;
-      /* padding-left: 25%; */
-      margin: 10px 20px 1px 30px;
-  }
+.eko-conference-center-input {
+  width: 85%;
 
-  .eko-conference-center-info{
-    max-width: 100%;
-  }
+  /* padding-left: 25%; */
+  margin: 10px 20px 1px 30px;
+}
 
-  .eko-center{
-      margin-left: 12px;
-      font-size: 13px;
-  }
+.eko-conference-center-info {
+  max-width: 100%;
+}
 
-  .more-details {
-      background-color: rgba(255, 255, 255, 0.3);
-  }
+.eko-center {
+  margin-left: 12px;
+  font-size: 13px;
+}
 
-  .eko-conference-center-logo p {
-      font-size: 2em;
-      margin: 0;
-      padding-top: 39px;
-  }
+.more-details {
+  background-color: rgba(255, 255, 255, 0.3);
+}
 
-  .eko-conference-center-info-details {
-    font-size: 15px;
-    padding: 12px;
-   }
+.eko-conference-center-logo p {
+  font-size: 2em;
+  margin: 0;
+  padding-top: 39px;
+}
 
+.eko-conference-center-info-details {
+  font-size: 15px;
+  padding: 12px;
+}
+
+.main-footer {
+  background-color: black;
+  margin-top: -20px;
+}
+
+.footer-image {
+  border-radius: 10%;
+  width: 20px;
+}
+
+.footer-details ul li {
+  padding-right: 10px;
+}
+
+.sub-footer {
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-top: -20px;
+}
+
+.sub-footer-icon ul li {
+  padding-left: 10px;
+}
+
+.sub-footer-icon ul li a {
+  color: #eee;
+}
+
+.subscribe p {
+  font-size: 15px;
+}
+
+.flex-sm-wrap {
+  flex-wrap: wrap;
+}
+
+.footer-info-send-button {
+  padding: 0 8px;
+  background-color: rgba(83, 78, 78, 0.9);
+}
+
+.footer-info-input {
+  background-color: black;
+  padding-left: 2px;
+}
