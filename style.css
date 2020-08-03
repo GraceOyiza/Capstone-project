@@ -9,6 +9,14 @@
   max-width: 1310px;
   margin: 0 auto;  
 }
+a {
+    color: white;
+}
+
+a:hover {
+  color: white !important;
+  text-decoration: none;
+  }
    
 .bg-bright-red {
   background-color: #D35649;
