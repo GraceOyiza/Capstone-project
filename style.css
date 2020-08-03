@@ -79,9 +79,9 @@ a:hover {
      padding-left: 10px;
    }
 
-   /* .background-image-text h1{
+   .background-image-text h1{
   animation: pop-left 3s ease-in-out;
-} */
+}
 
 .background-image-search {
     padding: 10px;
@@ -90,7 +90,7 @@ a:hover {
     margin: 10px;
     width: 100%;
     padding: 6px;
-    /* animation: fade-in 3s ease-in-out; */
+    animation: fade-in 3s ease-in-out;
   }
   
   .background-image-work {
