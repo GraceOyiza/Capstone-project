@@ -102,3 +102,62 @@ a:hover {
     top: 50%;
     transform: translate(-50%, -50%);
   }
+
+  .main-footer {
+    background-color: black;
+    margin-top: -20px;
+  }
+  
+  .flex-sm-wrap {
+    flex-wrap: wrap;
+  }
+  
+  a {
+    color: white;
+  }
+  
+  .footer-image {
+    border-radius: 10%;
+    width: 20px;
+  }
+  
+  .footer-details ul li {
+    padding-right: 10px;
+  }
+  
+  .sub-footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    margin-top: -20px;
+  }
+  
+  .sub-footer-icon ul li {
+    padding-left: 10px;
+  }
+  
+  .sub-footer-icon ul li a {
+    color: #eee;
+  }
+  
+  .subscribe p {
+    font-size: 15px;
+  }
+  
+  .footer-info-send-button {
+    padding: 0 8px;
+    background-color: rgba(83, 78, 78, 0.9)
+  }
+  
+  .footer-info-input {
+    background-color: black;
+    padding-left: 2px;
+  }
+
+  @media (min-width: 768px) {
+    .search-results-image {
+      margin: 0.8333%;
+    }
+
+  
+  }
+
+
