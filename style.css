@@ -88,6 +88,26 @@ a:hover {
     margin-left: 42%;
     /* animation: fade-in 3s ease-in-out; */
   } 
+
+  .section-school {
+    background-color: #E17E65;
+  }
+  .section-location {
+    background-color:#98A4A5 ;
+  }
+  .section-find {
+    background-color: #509BD7;
+  }
+  
+  .section-school-flex-img{
+   border-radius: 50%;
+   width: 200px;
+   overflow: hidden;
+  }
+  
+  .sub-section-school {
+    font-size: 12px;
+  }
   
   .search-input {
     box-shadow: #fff;
