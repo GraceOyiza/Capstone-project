@@ -45,3 +45,25 @@ a:hover {
    .nav-info li{
     padding-left: 30px;
    }
+
+   .background-image-container {
+    background:
+    url("image/events-logo.jpg");
+      background-size: cover;
+  background-position: center;
+  padding-bottom: 50px;
+  position: relative;
+  height: 80vh;
+   }
+  
+   .background-image-container-main {
+    position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+   }
+   .background-image-text h1{
+     font-size: 28px;
+     padding-left: 10px;
+   }
