@@ -173,8 +173,12 @@ a:hover {
       .footer-info-input {
         padding-left: 2px;
       } 
+  }
 
-  
+  @media (min-width: 1024px) {
+    .main-container-info > ul {
+      width: 100%;
+    }
   }
 
 
