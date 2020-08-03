@@ -176,6 +176,11 @@ a:hover {
         flex-wrap: nowrap !important;
       }
 
+      .search-results-image:hover {
+        transform: scale(1.1);
+       
+      }
+
     
     .footer-info-send-button {
         padding: 0 4px; 
