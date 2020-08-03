@@ -157,6 +157,15 @@ a:hover {
       margin: 0.8333%;
     }
 
+    
+    .footer-info-send-button {
+        padding: 0 4px; 
+      }
+      
+      .footer-info-input {
+        padding-left: 2px;
+      } 
+
   
   }
 
