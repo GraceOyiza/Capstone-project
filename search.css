@@ -46,6 +46,17 @@ a:hover {
     padding-left: 30px;
    }
 
+   .navigation-main {
+    transition: transform .5s, filter 1.5s ease-in-out;
+    filter: grayscale(100%);
+  }
+  
+  
+  .navigation-main:hover {
+    filter: grayscale(0);
+    transform: scale(1.1);
+  }
+
    
  .main-container-details {
     background-color: rgba(161, 155, 155, 0.2);
@@ -91,10 +102,10 @@ a:hover {
   }
 
    
-  /* .search-results-image:hover {
+  .search-results-image:hover {
     transform: scale(1.05);
    
-  } */
+  }
 
   .search-results-image p {
     position: absolute;
