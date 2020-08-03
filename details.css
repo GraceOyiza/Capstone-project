@@ -56,3 +56,15 @@ a:hover {
   filter: grayscale(0);
   transform: scale(1.1);
 }
+
+.logo-eko {
+    width: 60px;
+}
+
+  .eko-conference-center {
+   background-color: rgb(255, 255, 255);
+   padding-top: 5%;
+   margin-top: 12%;
+   border: 2px solid white;
+   box-shadow: 0 0 32px rgba(0, 0, 0, 0.25);
+  }
