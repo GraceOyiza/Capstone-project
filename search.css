@@ -157,6 +157,14 @@ a:hover {
       margin: 0.8333%;
     }
 
+    .subscribe p {
+        font-size: 9px;
+      }
+    
+      .flex-wrap-none {
+        flex-wrap: nowrap !important;
+      }
+
     
     .footer-info-send-button {
         padding: 0 4px; 
