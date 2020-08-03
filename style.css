@@ -170,3 +170,30 @@ a:hover {
     background-color: black;
     padding-left: 2px;
   }
+
+  @media (min-width: 768px) {
+    .background-image-search {
+      width: 100%;
+      padding: 6px;
+    }
+    
+    .background-image-work {
+      margin-left: 42%; 
+    }
+  
+    .footer-info-send-button {
+      padding: 0 4px; 
+    }
+    
+    .footer-info-input {
+      padding-left: 2px;
+    } 
+  
+    .subscribe p {
+      font-size: 9px;
+    }
+  
+    .flex-wrap-none {
+      flex-wrap: nowrap !important;
+    }
+  }
