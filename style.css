@@ -221,22 +221,20 @@ a:hover {
 
 @keyframes pop-left {
   from {
-   margin-left: 100vw;
+    margin-left: 100vw;
   }
- 
+
   to {
     margin-left: 0;
   }
-   
- }
- 
- @keyframes fade-in {
+}
+
+@keyframes fade-in {
   from {
-     opacity: 0;
-   }
-   
-   to {
-     opacity: 1;
-   }
-     
- }
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
