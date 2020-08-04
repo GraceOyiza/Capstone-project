@@ -218,3 +218,25 @@ a:hover {
     height: 30px;
   }
 }
+
+@keyframes pop-left {
+  from {
+   margin-left: 100vw;
+  }
+ 
+  to {
+    margin-left: 0;
+  }
+   
+ }
+ 
+ @keyframes fade-in {
+  from {
+     opacity: 0;
+   }
+   
+   to {
+     opacity: 1;
+   }
+     
+ }
