@@ -46,9 +46,9 @@ This is a capstone project for the Microverse HTML/CSS course. It is a directory
 
 [Live Demo details page](https://rawcdn.githack.com/GraceOyiza/Capstone-project/b5cd31c9a5dfc8ad7c6d1c58b935cc5dd83df994/details.html)
 
-### Getting Started
+# Getting Started
 
-- To get a local copy up and running follow these simple example steps.
+ To get a local copy up and running follow these simple example steps.
 
 ## Prerequisites
 - GIT
