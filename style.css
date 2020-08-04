@@ -150,11 +150,12 @@ a:hover {
 }
 
 .sub-footer-icon ul li {
-  padding-left: 10px;
+  padding-left: 25px;
 }
 
 .sub-footer-icon ul li a {
   color: #eee;
+  font-size: 18px;
 }
 
 .subscribe p {
