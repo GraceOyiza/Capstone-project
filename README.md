@@ -17,10 +17,15 @@ This is a capstone project for the Microverse HTML/CSS course. It is a directory
 
 ## Implementation
 - The project is built using Html and CSS,  Bootstrap CSS framework, flex and grid positioning.
+
 -Users can see the list of events center grouped into different categories such as Arts, Business, Recreation...
--Users can search for events center by venue and location
+
+-Users can search for events center by venue and location.
+
 -On the details page, Users can see the direction to the venue...
+
 -The company logo is animated and the background-image-container.
+
 -The Footer section has a navigation area for easy access.
 
 
@@ -46,11 +51,14 @@ This is a capstone project for the Microverse HTML/CSS course. It is a directory
 
 ## Prerequisites
 -GIT
+
 -BROWSER
 
 ## Setup
 -Clone this repo
+
 -cd into the cloned repo
+
 -Open the index.html file with any browser of your choice
 
 ### Linters
