@@ -12,24 +12,24 @@
     <div class="wrapper">
       <!-- navigation -->
      <nav>
-        <div class="navigation bg-bright-red text-white container   align-items-center">
-          <a href="index.html">
-           <div class="d-flex justify-content-center navigation-main align-items-center p-3">
-           <img  class="logo"    src="image/crop-white.jpg" alt="">
-           <p class="font-weight-bold">ELEGANCE</p>
-           </div>
-          </a>
-           <ul class=" nav-info list-unstyled d-flex justify-content-center mt-4 mr-3 align-items-center">
-             <li class="d-flex align-items-center"><i class="fa fa-search pr-2"></i><a class="d-none d-md-block">EVENTS</a></li>
-            <li class="d-flex align-items-center" ><i class="fa fa-user pr-2"></i>
-            <a class="d-none d-md-block">ABOUT</a></li>
-            <li class="d-flex align-items-center"><i class="fa fa-rss pr-2"></i>
-            <a class="d-none d-md-block">BLOGS</a></li>
-            <li class="d-flex align-items-center"><i class="fa fa-bars pr-2"></i><a class="d-none d-md-block">MORE</a></li>
-           </ul>
+      <div class="navigation bg-bright-red text-white container   align-items-center d-md-flex justify-content-between px-md-4">
+        <a href="index.html">
+         <div class="d-flex justify-content-center navigation-main align-items-center p-3">
+         <img  class="logo"    src="image/crop-white.jpg" alt="">
+         <p class="font-weight-bold">ELEGANCE</p>
          </div>
-  </nav>
-    </div>
+        </a>
+         <ul class=" nav-info list-unstyled d-flex justify-content-center mt-4 mr-3 align-items-center">
+           <li class="d-flex align-items-center"><i class="fa fa-search pr-2"></i><a class="d-none d-lg-block">EVENTS</a></li>
+          <li class="d-flex align-items-center" ><i class="fa fa-user pr-2"></i>
+          <a class="d-none d-lg-block">ABOUT</a></li>
+          <li class="d-flex align-items-center"><i class="fa fa-rss pr-2"></i>
+          <a class="d-none d-lg-block">BLOGS</a></li>
+          <li class="d-flex align-items-center"><i class="fa fa-bars pr-2"></i><a class="d-none d-lg-block">MORE</a></li>
+         </ul>
+       </div>
+</nav>
+  
 
     <main>
         <div class="main-container">
@@ -39,12 +39,12 @@
                 <ul class="d-flex flex-column flex-lg-row list-unstyled justify-content-center font-weight-bold pt-3 text-lg-left align-items-lg-end">
                    <li class="d-flex d-lg-block mb-2">
                    <p class="negative-padding mr-2">DATE*</p>
-                   <input type="text" name="date" >
+                   <input type="text" name="date" class="date-input ml-lg-0">
                    </li>
 
                    <li class="d-flex d-lg-block mb-2">
                    <p class="negative-padding mr-2">CATEGORY:</p>
-                   <select id="category" class="input-country pb-1">
+                   <select id="category" class="input-country pb-1 ml-lg-0 ">
                      <option value="volvo" label=" "> </option>
                      <option value="volvo">Art</option>
                      <option value="saab">Business</option>
@@ -56,7 +56,7 @@
 
                    <li class="d-flex d-lg-block mb-2">
                      <p class="negative-padding mr-2">VENUE:</p>
-                     <select id="venue" class="input-level pb-1">
+                     <select id="venue" class="input-level pb-1 ml-lg-0 ">
                       <option value="volvo" label=" "></option>
                       <option value="saab">Eko Convention Center</option>
                       <option value="opel">JOGOR Center</option>
@@ -66,7 +66,7 @@
 
                    <li class="d-flex d-lg-block mb-2">
                      <p class="negative-padding mr-2">LOCATION:</p>
-                     <select id="location" class="input-location pb-1">
+                     <select id="location" class="input-location pb-1 ml-lg-0 ">
                        <option value="location" label=" "></option>
                        <option value="saab">Lagos</option>
                        <option value="opel">Ibadan</option>
@@ -113,8 +113,9 @@
         </div>
     </main>
 
-      <!-- footer -->
-    <footer class="mt-5 ">
+    
+    <!-- footer -->
+    <footer class="mt-5">
       <div class="main-footer px-5 pt-2">
         <div class="footer-details">
           <ul class="list-unstyled d-flex flex-sm-wrap flex-wrap-none justify-content-between">
@@ -130,26 +131,29 @@
            </ul>
         </div>
 
-        <div class="footer-info text-white pt-5 pb-3">
-          <ul class="list-unstyled d-md-flex justify-content-between mb-0">
+        <div class="footer-info text-white pt-5 pb-3 text-center">
+          <ul class="list-unstyled d-md-flex  mb-0 justify-content-between">
             <li class="">
             <div class="subscribe mb-3">
             <h6 class="pb-2">SUBSCRIBE</h6>
-            <input type="text" name="email" placeholder="example@gmail.com" class="footer-info-input"><button class=" footer-info-send-button text-white" type="button">send</button>
+              <div class="d-flex justify-content-center">
+                <input type="text" name="email" placeholder="example@gmail.com" class="footer-info-input">
+                <button class=" footer-info-send-button text-white" type="button">send</button>
+              </div>
             </div>
             </li>
 
             <li>
             <div class="contact ml-md-4">
             <h6 class="pb-sm-2">CONTACT</h6>
-            <p>Lorem ipsum dolor sit amet consectetur<br> <span class="text-bright-red">adipisicing elit.</span>  </p>
+            <p>Lorem ipsum dolor sit<br> <span class="text-bright-red">adipisicing elit.</span>  </p>
            </div>
            </li>
 
            <li>
-           <div class="contact ml-md-3">
+           <div class="contact ml-md-4">
            <h6 class="pb-sm-2">ABOUT</h6>
-           <p class="mb-0">Lorem ipsum dolor, sit amet consectetur<br> adipisicing elit. Reprehenderit voluptatem tempora temporibus<br> ex nihil. <span class="text-bright-red">  Accusamus aliquid sapiente</span> </p>
+           <p class="mb-0">Lorem ipsum dolor, sit amet<br> adipisicing elit. <span class="text-bright-red">  Accusamus aliquid sapiente</span> </p>
            </div>
            </li>
        </ul>
@@ -167,5 +171,6 @@
         </div>
        </div>
    </footer>
+  </div>
 </body>
 </html>

@@ -75,6 +75,25 @@ a:hover {
   margin-bottom: 3px;
 }
 
+.date-input {
+  margin-left: 38px;
+  width: 60%;
+}
+
+.input-level {
+  margin-left: 29px;
+  width: 60%;
+}
+
+.input-location {
+  margin-left: 4px;
+  width: 60%;
+}
+
+.input-country {
+  width: 60%;
+}
+
 .search-button {
   background-color: #457db4;
   border-radius: 4px;
@@ -199,5 +218,15 @@ a:hover {
   .logo {
     width: 30px;
     height: 30px;
+  }
+
+  .date-input {
+    width: 100%;
+  }
+
+  .input-country,
+  .input-location,
+  .input-level {
+    width: 100%;
   }
 }
