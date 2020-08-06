@@ -40,11 +40,11 @@ This is a capstone project for the Microverse HTML/CSS course. It is a directory
 
 ## Live Demo
 
-[Live Demo index page](https://rawcdn.githack.com/GraceOyiza/Capstone-project/b5cd31c9a5dfc8ad7c6d1c58b935cc5dd83df994/index.html)
+[Live Demo index page](https://rawcdn.githack.com/GraceOyiza/Capstone-project/8f4ae61d29e1becf2129db29cacc8e6ec4ea746a/index.html)
 
-[Live Demo search page](https://rawcdn.githack.com/GraceOyiza/Capstone-project/b5cd31c9a5dfc8ad7c6d1c58b935cc5dd83df994/search.html)
+[Live Demo search page](https://rawcdn.githack.com/GraceOyiza/Capstone-project/8f4ae61d29e1becf2129db29cacc8e6ec4ea746a/search.html)
 
-[Live Demo details page](https://rawcdn.githack.com/GraceOyiza/Capstone-project/b5cd31c9a5dfc8ad7c6d1c58b935cc5dd83df994/details.html)
+[Live Demo details page](https://rawcdn.githack.com/GraceOyiza/Capstone-project/8f4ae61d29e1becf2129db29cacc8e6ec4ea746a/details.html)
 
 # Getting Started
 
