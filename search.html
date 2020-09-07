@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="search.css">
+    <title>Search Page</title>
+</head>
+<body>
+    <div class="wrapper">
+      <!-- navigation -->
+     <nav>
+      <div class="navigation bg-bright-red text-white container   align-items-center d-md-flex justify-content-between px-md-4">
+        <a href="index.html">
+         <div class="d-flex justify-content-center navigation-main align-items-center p-3">
+         <img  class="logo"    src="image/crop-white.jpg" alt="">
+         <p class="font-weight-bold">ELEGANCE</p>
+         </div>
+        </a>
+         <ul class=" nav-info list-unstyled d-flex justify-content-center mt-4 mr-3 align-items-center">
+           <li class="d-flex align-items-center"><i class="fa fa-search pr-2"></i><a class="d-none d-lg-block">EVENTS</a></li>
+          <li class="d-flex align-items-center" ><i class="fa fa-user pr-2"></i>
+          <a class="d-none d-lg-block">ABOUT</a></li>
+          <li class="d-flex align-items-center"><i class="fa fa-rss pr-2"></i>
+          <a class="d-none d-lg-block">BLOGS</a></li>
+          <li class="d-flex align-items-center"><i class="fa fa-bars pr-2"></i><a class="d-none d-lg-block">MORE</a></li>
+         </ul>
+       </div>
+</nav>
+  
+
+    <main>
+        <div class="main-container">
+            <div class="main-container-details">
+            <h1 class="text-center font-weight-bold main-container-details-title text-muted">Filter by date, category, venue, location:</h1>
+               <div class="main-container-info">
+                <ul class="d-flex flex-column flex-lg-row list-unstyled justify-content-center font-weight-bold pt-3 text-lg-left align-items-lg-end">
+                   <li class="d-flex d-lg-block mb-2">
+                   <p class="negative-padding mr-2">DATE*</p>
+                   <input type="text" name="date" class="date-input ml-lg-0">
+                   </li>
+
+                   <li class="d-flex d-lg-block mb-2">
+                   <p class="negative-padding mr-2">CATEGORY:</p>
+                   <select id="category" class="input-country pb-1 ml-lg-0 ">
+                     <option value="volvo" label=" "> </option>
+                     <option value="volvo">Art</option>
+                     <option value="saab">Business</option>
+                     <option value="opel">Health</option>
+                     <option value="audi">News</option>
+                     <option value="audi">Recreation</option>
+                   </select>
+                   </li>
+
+                   <li class="d-flex d-lg-block mb-2">
+                     <p class="negative-padding mr-2">VENUE:</p>
+                     <select id="venue" class="input-level pb-1 ml-lg-0 ">
+                      <option value="volvo" label=" "></option>
+                      <option value="saab">Eko Convention Center</option>
+                      <option value="opel">JOGOR Center</option>
+                      <option value="audi">Landmark Center</option>
+                     </select>
+                   </li>
+
+                   <li class="d-flex d-lg-block mb-2">
+                     <p class="negative-padding mr-2">LOCATION:</p>
+                     <select id="location" class="input-location pb-1 ml-lg-0 ">
+                       <option value="location" label=" "></option>
+                       <option value="saab">Lagos</option>
+                       <option value="opel">Ibadan</option>
+                       <option value="audi">Port Harcourt</option>
+                     </select>
+                  </li>
+
+                   <li class="mb-2">
+                     <button class="px-3 border-0 pb-1 search-button text-white" type="button">Search</button>
+                  </li>
+
+                 <li class="mb-2" >   
+                    <div class="clear-filter">
+                    <i class="fa fa-pencil-square-o"></i>
+                    <button class="border-0 px-3 pb-1 clear-filter-button text-white" type="button">
+                    Clear filter</button>
+                    </div>
+                 </li>
+                </ul>
+             </div>
+             </div>
+          </div> 
+
+        <div class="search-results-container mt-5 px-3">
+            <h4 class="text-center text-muted">Search Results Found 10 Events centers</h4>
+            <div class="search-results d-flex no-gutters flex-column flex-md-row">
+              <div class="search-results-image">
+              <p class="text-white text-center my-auto"><a href="details.html">NAME:  <span class="font-weight-bold">DEMO THREE</span></a>
+              </p>
+              </div>
+                   
+              <div class="search-results-image">
+              <p class="text-white text-center my-auto"><a href="details.html">NAME:  <span class="font-weight-bold">DEMO TWO</span></a></p>
+              </div>
+
+              <div class="search-results-image">
+              <p class="text-white text-center my-auto">
+              <a href="details.html">NAME:  <span class="font-weight-bold">FINALLY THE SLIDER</span>
+              </a>
+              </p>
+              </div>
+                
+            </div>
+        </div>
+    </main>
+
+    
+    <!-- footer -->
+    <footer class="mt-5">
+      <div class="main-footer px-5 pt-2">
+        <div class="footer-details">
+          <ul class="list-unstyled d-flex flex-sm-wrap flex-wrap-none justify-content-between">
+            <li class=""><a href="#">HOME</a></li>
+            <li><a href="#">SEARCH</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">ADVERTISE</a></li>
+            <li><a href="#"><img src="image/crop-white.jpg" alt="" class="footer-image"></a></li>
+            <li><a href="#">FACEBOOK</a></li>
+            <li><a href="#">TWITTER</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">GOOGLE +</a></li>
+           </ul>
+        </div>
+
+        <div class="footer-info text-white pt-5 pb-3 text-center">
+          <ul class="list-unstyled d-md-flex  mb-0 justify-content-between">
+            <li class="">
+            <div class="subscribe mb-3">
+            <h6 class="pb-2">SUBSCRIBE</h6>
+              <div class="d-flex justify-content-center">
+                <input type="text" name="email" placeholder="example@gmail.com" class="footer-info-input">
+                <button class=" footer-info-send-button text-white" type="button">send</button>
+              </div>
+            </div>
+            </li>
+
+            <li>
+            <div class="contact ml-md-4">
+            <h6 class="pb-sm-2">CONTACT</h6>
+            <p>Lorem ipsum dolor sit<br> <span class="text-bright-red">adipisicing elit.</span>  </p>
+           </div>
+           </li>
+
+           <li>
+           <div class="contact ml-md-4">
+           <h6 class="pb-sm-2">ABOUT</h6>
+           <p class="mb-0">Lorem ipsum dolor, sit amet<br> adipisicing elit. <span class="text-bright-red">  Accusamus aliquid sapiente</span> </p>
+           </div>
+           </li>
+       </ul>
+    </div> 
+   </div>
+       <div class="sub-footer">
+         <div class="sub-footer-icon">
+          <ul class="list-unstyled d-flex py-2 mb-0 justify-content-center">
+           <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+           <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+           <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+           <li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+           <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+         </ul>
+        </div>
+       </div>
+   </footer>
+  </div>
+</body>
+</html>
